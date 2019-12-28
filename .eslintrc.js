@@ -119,7 +119,6 @@ module.exports = {
         "react/jsx-curly-brace-presence": [2, { "props": "never", "children": "never" }],
         "react/jsx-pascal-case": 2,
         "react/jsx-props-no-multi-spaces": 2,
-        "react/jsx-space-before-closing": 2,
         "react/jsx-tag-spacing": [2, { 
             "closingSlash": "never", 
             "beforeSelfClosing": "always",
