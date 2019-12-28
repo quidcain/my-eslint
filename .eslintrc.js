@@ -116,7 +116,7 @@ module.exports = {
         "react/jsx-equals-spacing": 2,
         "react/jsx-filename-extension": [2, { "extensions": [".js"] }],
         "react/jsx-first-prop-new-line": [2, "multiline"],
-        "react/jsx-handler-names": 2,
+        // "react/jsx-handler-names": 2,
         "react/jsx-indent": [2, 2, { "indentLogicalExpressions": true }],
         "react/jsx-indent-props": [2, 2],
         "react/jsx-max-props-per-line": [2, { "when": "multiline" }],
