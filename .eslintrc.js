@@ -15,7 +15,6 @@ module.exports = {
         "curly": [2, "all"],
         "dot-location": [2, "property"],
         "dot-notation": 2,
-        "eqeqeq": [1, "smart"],
         "no-case-declarations": 2,
         "no-extra-bind": 2,
         // no-magic-numbers
