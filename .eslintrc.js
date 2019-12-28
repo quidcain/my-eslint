@@ -109,6 +109,15 @@ module.exports = {
         "template-curly-spacing": 2,
         "yield-star-spacing": [2, "after"],
         // React
+        "react/jsx-wrap-multilines": [2, {
+            "declaration": "parens-new-line",
+            "assignment": "parens-new-line",
+            "return": "parens-new-line",
+            "arrow": "parens-new-line",
+            "condition": "parens-new-line",
+            "logical": "parens-new-line",
+            "prop": "parens-new-line"
+        }],
         "react/jsx-closing-bracket-location": 2,
         "react/jsx-closing-tag-location": 2,
         "react/jsx-curly-spacing": 2,
@@ -130,6 +139,8 @@ module.exports = {
         }],
         "react/jsx-uses-react": 2,
         "react/jsx-uses-vars": 2,
+        // eslint:recommended override
+        "no-constant-condition": 0,
         // react/recommended override
         "react/prop-types": 0
     }
