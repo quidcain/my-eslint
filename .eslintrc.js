@@ -69,6 +69,7 @@ module.exports = {
             "multiline": true,
             "consistent": true,
         }],
+        "object-property-newline": [2, { "allowAllPropertiesOnSameLine": true }]
         "object-curly-spacing": [2, "always"],
         "one-var": [2, "never"],
         "operator-linebreak": ["error", "after", { "overrides": { "?": "before", ":": "before" } }],
