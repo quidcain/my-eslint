@@ -26,6 +26,10 @@ module.exports = {
         "prefer-promise-reject-errors": 2,
         // Variables
         "no-undef-init": 2,
+        "no-unused-vars": [2, {
+            "argsIgnorePattern": "^_",
+            "varsIgnorePattern": "^_"
+        }],
         // Stylistic Issues
         "array-bracket-newline": [2, { "multiline": true }],
         "array-bracket-spacing": 2,
