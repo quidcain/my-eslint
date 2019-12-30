@@ -11,7 +11,7 @@ module.exports = {
     ],
     "rules": {
         // Best Practices
-        "class-methods-use-this": 2,
+        "class-methods-use-this": 1,
         "curly": [2, "all"],
         "dot-location": [2, "property"],
         "dot-notation": 2,
