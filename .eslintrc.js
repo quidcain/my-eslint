@@ -50,10 +50,10 @@ module.exports = {
         "indent": [2, 2],
         "jsx-quotes": 2,
         "key-spacing": 2,
-        "keyword-spacing": [2, { "overrides": { 
-          "if": { "after": false }, 
-          "for": { "after": false }, 
-          "while": { "after": false } 
+        "keyword-spacing": [2, { "overrides": {
+          "if": { "after": false },
+          "for": { "after": false },
+          "while": { "after": false }
         } }],
         "linebreak-style": [2, "unix"],
         // max-len
@@ -72,7 +72,7 @@ module.exports = {
             "multiline": true,
             "consistent": true,
         }],
-        "object-property-newline": [2, { "allowAllPropertiesOnSameLine": true }]
+        "object-property-newline": [2, { "allowAllPropertiesOnSameLine": true }],
         "object-curly-spacing": [2, "always"],
         "one-var": [2, "never"],
         "operator-linebreak": ["error", "after", { "overrides": { "?": "before", ":": "before" } }],
@@ -135,8 +135,8 @@ module.exports = {
         "react/jsx-curly-brace-presence": [2, { "props": "never", "children": "never" }],
         "react/jsx-pascal-case": 2,
         "react/jsx-props-no-multi-spaces": 2,
-        "react/jsx-tag-spacing": [2, { 
-            "closingSlash": "never", 
+        "react/jsx-tag-spacing": [2, {
+            "closingSlash": "never",
             "beforeSelfClosing": "always",
             "afterOpening": "never",
             "beforeClosing": "never"
