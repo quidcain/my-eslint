@@ -75,7 +75,7 @@ module.exports = {
         "object-property-newline": [2, { "allowAllPropertiesOnSameLine": true }],
         "object-curly-spacing": [2, "always"],
         "one-var": [2, "never"],
-        "operator-linebreak": ["error", "after", { "overrides": { "?": "before", ":": "before" } }],
+        "operator-linebreak": [2, "after", { "overrides": { "?": "before", ":": "before" } }],
         "padded-blocks": [2, "never"],
         "quote-props": [2, "as-needed"],
         "quotes": [2, "single", { "avoidEscape": true }],
