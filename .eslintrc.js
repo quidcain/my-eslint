@@ -94,7 +94,6 @@ module.exports = {
         "switch-colon-spacing": 2,
         "template-tag-spacing": 2,
         // ECMAScript 6
-        "arrow-body-style": 2,
         "arrow-parens": [2, "as-needed"],
         "arrow-spacing": 2,
         "generator-star-spacing": [2, {"before": false, "after": true}],
