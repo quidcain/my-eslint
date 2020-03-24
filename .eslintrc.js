@@ -45,7 +45,7 @@ module.exports = {
         "func-call-spacing": 2,
         "func-style": [2, "declaration", { "allowArrowFunctions": true }],
         "function-call-argument-newline": [2, "consistent"],
-        "function-paren-newline": 2,
+        "function-paren-newline": [2, "multiline-arguments"],
         "implicit-arrow-linebreak": 2,
         "indent": [2, 2],
         "jsx-quotes": 2,
