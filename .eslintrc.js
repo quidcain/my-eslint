@@ -51,9 +51,10 @@ module.exports = {
         "jsx-quotes": 2,
         "key-spacing": 2,
         "keyword-spacing": [2, { "overrides": {
-          "if": { "after": false },
-          "for": { "after": false },
-          "while": { "after": false }
+            "if": { "after": false },
+            "for": { "after": false },
+            "while": { "after": false },
+            "catch": { "after": false }
         } }],
         "linebreak-style": [2, "unix"],
         // max-len
